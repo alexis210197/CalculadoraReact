@@ -1,0 +1,36 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  font-family: Bodoni 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://w0.peakpx.com/wallpaper/436/951/HD-wallpaper-black-background-with-gold-lines-black-geometric-background-black-texture-luxury-black-background.jpg);
+}
+
+
+.contenedor__calculadora{
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #414C4E;
+  border-radius: 20px;
+  border: 5px solid #B6BFC1;
+}
+
+.contenedor__fila{
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
